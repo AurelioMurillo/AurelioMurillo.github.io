@@ -1,0 +1,31 @@
+:root{
+    --Suz-primary: #867070;
+    --Suz-secondary: #D5B4B4;
+    --Suz-tertiary: #E4D0D0;
+    --Suz-fourth: #F5EBEB;
+}
+
+@font-face {
+    font-family: BebasNeue;
+    src: url(fonts/BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family: Satisfy;
+    src: url(fonts/Satisfy-Regular.ttf);
+}
+
+
+.options-navbar {
+    font-family: BebasNeue,sans-serif;
+    color: var(--Suz-fourth);
+    font-size: 40px;
+}
+.quote-satisfy {
+    font-family: Satisfy,sans-serif;
+    color: var(--Suz-fourth);
+    font-size: 64px;
+}
+
+.bg-Suz-primary{
+ background-color: var(--Suz-primary);
+}
